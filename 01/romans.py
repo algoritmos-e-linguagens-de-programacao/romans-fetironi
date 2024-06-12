@@ -14,9 +14,6 @@ def int_to_roman(num):
 
     return(traducao)
 
-    pass
-
-
 def roman_to_int(s):
  
     roman_to_int_map = {
@@ -44,8 +41,3 @@ def roman_to_int(s):
     
     return total
 
-roman_input = input("Digite um número romano: ").upper()
-
-
-print("O Número decimal equivalente é:", roman_to_int(roman_input))
-    pass
